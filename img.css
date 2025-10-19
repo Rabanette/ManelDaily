@@ -1,0 +1,14 @@
+#img{
+    max-width: 50px;
+    background-color: RGB(121, 159, 204);
+}
+
+#icons{
+    max-width: 20px;
+}
+
+#manel{
+    max-width: 300px;
+    background-color: pink;
+    border-radius: 50%;
+}

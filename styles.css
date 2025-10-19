@@ -1,0 +1,187 @@
+@media (min-width: 1366px){
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: rgba(226, 226, 226, 0.733);
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    width: 70%;
+    margin: auto;  
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.26);
+}
+
+main{
+    display: inline-block;
+    background-color: rgb(156, 156, 156);
+}
+
+#menu{
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+  display: flex;
+  justify-content: center; 
+  align-items: center;    
+  padding-bottom: 10px;  
+  padding-top: 10px; 
+    gap: 10px;
+    margin-top: 5px;
+    padding-inline:10px;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    margin: 0px;
+    color: RGB(121, 159, 204);
+    font-size: xx-large;
+}
+
+#search{
+  display: flex;
+  align-items: center;
+  padding-top: 1.5vh;      
+  padding-bottom: 1.5vh;    
+    gap: 10px;
+    margin-top: 15px;
+    padding-inline:10px;
+    background-color: rgb(216, 216, 216);
+    width: 100%;
+    margin: 0px;
+    font-size: small;
+}
+
+#sobre{
+  display: flex;
+  padding-top: 2vh;      
+  padding-bottom: 2vh; 
+      gap: 10px;     
+    margin-top: 15px;
+    padding-inline:10px;
+    background-color: rgb(228, 228, 228);
+    width: 100%;
+    margin: 0px;
+    font-size: small;
+}
+
+#sobre1{
+    display: flex;
+    align-items: center;
+}
+
+
+#end{
+    color: RGB(121, 159, 204);
+    margin-left: auto;
+}
+
+#BIG{
+    height: 4vh;
+    width: 20vw;
+    border-radius: 5px;
+}
+
+#btn{
+    width: 10vw;
+    height: 4vh;
+    border-radius: 5px;
+}
+
+#btn:hover{
+    width: 10vw;
+    height: 4vh;
+    color: RGB(121, 159, 204);
+}
+
+#altura{
+    font-family: "Roboto", sans-serif;
+    height: 40vh;
+    text-align: left;
+    color: rgb(58, 58, 58);
+    padding-top: 4vh;
+    padding-bottom: 100vh;
+    margin-inline: 9vw;
+    padding-inline: 5vw;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.26);
+}
+
+header{
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.363);
+}
+
+#livros-de-manel{
+    color: RGB(121, 159, 204);
+    text-decoration: none;
+}
+
+#livros-de-manel:hover{
+    text-decoration: underline;
+}
+
+#manel{
+    margin-inline: 15vw;
+    margin-bottom: 5vh;
+    margin-top: 5vh;
+}
+
+#manel-informaçoes{
+    font-size: 2vh;
+    text-decoration: none;
+    color: rgb(85, 85, 85);
+}
+
+#manel-informaçoes:hover{
+    font-size: 2vh;
+    text-decoration: underline;
+    color: RGB(121, 159, 204);
+}
+
+#bg{
+    padding-top: 20vh;
+    background-color: rgb(228, 228, 228);
+}
+
+#shadows{
+    position: fixed;
+    width: 70%;
+}
+
+#dias{
+    width: 50px;
+    background-color: rgb(231, 231, 231);
+    border-radius: 25%;
+    padding-inline: 5px;
+}
+
+#arrows{
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  font-size: x-large;
+  gap: 0.3vw;
+  padding-bottom: 4vh;
+}
+
+#arrow{
+    background-color: rgba(230, 230, 230, 0.89);    
+    color: RGB(121, 159, 204);
+    text-decoration: none;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 10px;
+}
+
+#img2{
+    max-width: 25px;
+    margin-left: auto;
+}
+
+}
