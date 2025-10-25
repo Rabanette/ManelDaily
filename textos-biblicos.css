@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+#textos-biblicos{
+    letter-spacing: 0.1vh;
+    font-size: x-large;
+    font-family: "Noto Serif", serif;
+}
+
+#blue{
+    color: RGB(121, 159, 204);
+}
+
+#bluePStart{
+    color: RGB(121, 159, 204);
+    font-size: xx-large;
+}
+
+#capitulos{
+    text-decoration: none;
+    color: white;
+}
+
+#capitulos1{
+    text-decoration: none;
+    color:  rgb(22, 22, 22);
+}
+
+.grid{
+    display: grid;
+    gap: 4px;
+    grid-template-areas:
+      "a b c d" 
+      "e f g h"
+     ;
+    grid-template-columns: repeat(4, 1fr)
+}
+
+.a{grid-area: a; background-color: rgba(44, 76, 255, 0.774); text-align: center; padding-top: 2vh; padding-bottom: 2vh;}
+.b{grid-area: b; background-color: rgba(44, 76, 255, 0.774); text-align: center; padding-top: 2vh; padding-bottom: 2vh;}
+.c{grid-area: c; background-color: rgba(44, 76, 255, 0.774); text-align: center; padding-top: 2vh; padding-bottom: 2vh;}
+.d{grid-area: d; background-color: rgba(44, 76, 255, 0.774); text-align: center; padding-top: 2vh; padding-bottom: 2vh;}
+
+
+
+
+.a:hover{grid-area: a; background-color: rgba(69, 97, 255, 0.774); text-align: center; padding-top: 2vh; padding-bottom: 2vh;}
+.b:hover{grid-area: b; background-color: rgba(69, 97, 255, 0.774); text-align: center; padding-top: 2vh; padding-bottom: 2vh;}
+.c:hover{grid-area: c; background-color: rgba(69, 97, 255, 0.774); text-align: center; padding-top: 2vh; padding-bottom: 2vh;}
+.d:hover{grid-area: d; background-color: rgba(69, 97, 255, 0.774); text-align: center; padding-top: 2vh; padding-bottom: 2vh;}
+
+/*Versicolus*/
+
+
+@media (min-width: 1366px){
+    .grid2{
+        display: grid;
+        gap: 4px;
+        grid-template-areas:
+          "a b c d" 
+          "e f g h"
+         ;
+        grid-template-columns: repeat(15, 1fr)
+    }
+    
+.e{grid-area: e; background-color: rgba(255, 255, 255, 0.774); text-align: center; padding-top: 1vh; padding-bottom: 1vh; border-style:solid; border-color: rgba(56, 56, 56, 0.774); border-width: 0.1vh;}
+.f{grid-area: f; background-color: rgba(255, 255, 255, 0.774); text-align: center; padding-top: 1vh; padding-bottom: 1vh; border-style:solid; border-color: rgba(56, 56, 56, 0.774); border-width: 0.1vh;}
+.g{grid-area: g; background-color: rgba(255, 255, 255, 0.774); text-align: center; padding-top: 1vh; padding-bottom: 1vh; border-style:solid; border-color: rgba(56, 56, 56, 0.774); border-width: 0.1vh;}
+.h{grid-area: h; background-color: rgba(255, 255, 255, 0.774); text-align: center; padding-top: 1vh; padding-bottom: 1vh; border-style:solid; border-color: rgba(56, 56, 56, 0.774); border-width: 0.1vh;}
+
+.e:hover{grid-area: e; background-color: rgba(69, 97, 255, 0.774); text-align: center; padding-top: 1vh; padding-bottom: 1vh;}
+.f:hover{grid-area: f; background-color: rgba(69, 97, 255, 0.774); text-align: center; padding-top: 1vh; padding-bottom: 1vh;}
+.g:hover{grid-area: g; background-color: rgba(69, 97, 255, 0.774); text-align: center; padding-top: 1vh; padding-bottom: 1vh;}
+.h:hover{grid-area: h; background-color: rgba(69, 97, 255, 0.774); text-align: center; padding-top: 1vh; padding-bottom: 1vh;}
+}
+
+@media (max-width: 1366px){
+
+    .grid2{
+        display: grid;
+        gap: 4px;
+        grid-template-areas:
+          "a b c d" 
+          "e f g h"
+         ;
+        grid-template-columns: repeat(7, 1fr)
+    }
+
+.e{grid-area: e; background-color: rgba(255, 255, 255, 0.774); text-align: center; padding-top: 1vh; padding-bottom: 1vh; border-style:solid; border-color: rgba(56, 56, 56, 0.774); border-width: 0.1vh;}
+.f{grid-area: f; background-color: rgba(255, 255, 255, 0.774); text-align: center; padding-top: 1vh; padding-bottom: 1vh; border-style:solid; border-color: rgba(56, 56, 56, 0.774); border-width: 0.1vh;}
+.g{grid-area: g; background-color: rgba(255, 255, 255, 0.774); text-align: center; padding-top: 1vh; padding-bottom: 1vh; border-style:solid; border-color: rgba(56, 56, 56, 0.774); border-width: 0.1vh;}
+.h{grid-area: h; background-color: rgba(255, 255, 255, 0.774); text-align: center; padding-top: 1vh; padding-bottom: 1vh; border-style:solid; border-color: rgba(56, 56, 56, 0.774); border-width: 0.1vh;}
+
+.e:hover{grid-area: e; background-color: rgba(69, 97, 255, 0.774); text-align: center; padding-top: 1vh; padding-bottom: 1vh;}
+.f:hover{grid-area: f; background-color: rgba(69, 97, 255, 0.774); text-align: center; padding-top: 1vh; padding-bottom: 1vh;}
+.g:hover{grid-area: g; background-color: rgba(69, 97, 255, 0.774); text-align: center; padding-top: 1vh; padding-bottom: 1vh;}
+.h:hover{grid-area: h; background-color: rgba(69, 97, 255, 0.774); text-align: center; padding-top: 1vh; padding-bottom: 1vh;}
+
+}
