@@ -47,12 +47,12 @@ main{
 #search{
   display: flex;
   align-items: center;
-  padding-top: 1.5vh;      
-  padding-bottom: 1.5vh;    
+  padding-top: 1vh;      
+  padding-bottom: 1vh;    
     gap: 10px;
     margin-top: 15px;
     padding-inline:10px;
-    background-color: rgb(216, 216, 216);
+    background-color: rgb(237, 236, 233);
     width: 100%;
     margin: 0px;
     font-size: small;
@@ -65,7 +65,7 @@ main{
       gap: 10px;     
     margin-top: 15px;
     padding-inline:10px;
-    background-color: rgb(228, 228, 228);
+    background-color: rgb(245, 244, 242);
     width: 100%;
     margin: 0px;
     font-size: small;
@@ -85,13 +85,19 @@ main{
 #BIG{
     height: 4vh;
     width: 20vw;
-    border-radius: 5px;
+    border-radius: 0.1px;
+    border-style:solid;
+    border-width: 1px;
+    border-color: rgba(97, 97, 97, 0.356);
 }
 
 #btn{
     width: 10vw;
     height: 4vh;
-    border-radius: 5px;
+    border-style:solid;
+    border-radius: 0.1px;
+    border-width: 1px;
+    border-color: rgba(97, 97, 97, 0.356);
 }
 
 #btn:hover{
@@ -179,9 +185,66 @@ header{
     border-radius: 10px;
 }
 
+
 #img2{
     max-width: 25px;
     margin-left: auto;
+}
+
+/*Leitor opçoes*/
+
+#mp3{
+    background-color: rgb(66, 66, 66);    
+    color: RGB(121, 159, 204);
+    text-decoration: none;
+    padding-left: 4px;
+    padding-right: 60vw;
+    border-radius: 4px;
+}
+
+#bgmp3{
+    display: flex;
+    background-color: rgb(212, 226, 231);
+    padding-top: 0.5vh;
+    padding-bottom: 0.5vh;
+    align-items: center;
+    gap:0.7vw;
+    padding-inline: 0.5vw;
+}
+
+#Leitura{
+    display: flex;
+    background-color: rgba(230, 230, 230, 1);    
+    color: RGB(121, 159, 204);
+    text-decoration: none;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 10px;
+    padding-top: 1vh;
+}
+
+#Leituras{
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  font-size: x-large;
+  gap: 15vw;
+  padding-bottom: 1vh;
+}
+
+#next{
+    background-color: rgb(212, 226, 231);    
+    color: rgba(89, 129, 179, 0.514);
+    text-decoration: none;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 10px;
+}
+
+#gap{
+    display: flex;
+    gap: 10px;
+    align-items: center;
 }
 
 }
